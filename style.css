@@ -139,3 +139,73 @@
     line-height: 52px;
   }
 }
+
+/* Recent works  */
+.cards {
+  display: grid;
+  margin: 0 135px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px 24px;
+}
+
+#recent-works h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin: 52px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.card-img {
+  height: 252px;
+  width: 100%;
+  background-color: #d0d9d4;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.languages {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.language {
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px 12px;
+  text-align: center;
+  color: #172b4d;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.card-btn {
+  background-color: #36b37f;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 24px 0;
+  outline: auto;
+  cursor: pointer;
+}
